@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "ind.companies-act-2013"
+           :title "The Companies Act, 2013"
+           :jurisdiction "IND"
+           :kind :law
+           :law-number "Act No. 18 of 2013"
+           :url "https://prsindia.org/files/bills_acts/acts_parliament/2013/companies-act,-2013.pdf"
+           :url-provenance :official-gazette-of-india-prsindia-mirror
+           :enacted-date "2013-08-29"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "ind.digital-personal-data-protection-act-2023"
+           :title "The Digital Personal Data Protection Act, 2023"
+           :jurisdiction "IND"
+           :kind :law
+           :law-number "Act No. 22 of 2023"
+           :url "https://prsindia.org/files/bills_acts/acts_parliament/2023/Digital_Personal_Data_Protection_Act,_2023.pdf"
+           :url-provenance :official-gazette-of-india-prsindia-mirror
+           :enacted-date "2023-08-11"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
